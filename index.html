@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple Survey</h1>
+        <form id="identity">
+          <div class="form-group">
+            <label for="name">What's your name?:</label>
+            <input id="name" type="text" class="form-control">
+          </div>
+        </form>
+        <form id="birthday">
+          <div class="form-group">
+            <label for="born">When were you born?:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+        </form>
+        <form id="drink">
+          <select class="form-control" id="beverage">
+            <option>Coffee</option>
+            <option>Tea</option>
+            <option>Water</option>
+            <option>Beer</option>
+            <option>Soda</option>
+            <option>Juice</option>
+            <option>I don't drink liquid</option>
+          </select>
+        </form>
+        <form id="music">
+          <div class="radio">
+            <h2>What is your favorite music?</h2>
+            <label>
+              <input type="radio" name="genre" value="rock">
+              Rock
+            </label>
+          </div>
+        </form>
+        <form id="music">
+          <div class="radio">
+            <label>
+              <input type="radio" name="genre" value="country">
+              country
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="genre" value="folk">
+              folk
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="genre" value="edm">
+              EDM
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="genre" value="bluegrass">
+              bluegrass
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="genre" value="rap">
+              rap
+            </label>
+          </div>
+        <form id="shades">
+          <div class="form-group">
+            <label for="color">What is your favorite color?</label>
+            <input id="color" class="form-control" type="color">
+          </div>
+        </form>
+    </div>
+  </body>
+</html>
